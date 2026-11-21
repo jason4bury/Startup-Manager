@@ -1,0 +1,21 @@
+{
+  "AppName": "Startup Manager",
+  "EntryScript": "src\\Startup-Manager.ps1",
+  "Icon": "assets\\Startup-Manager.ico",
+  "Side": "Home",
+  "Description": "PowerShell/WPF tool for seeing and turning off what runs when Windows starts",
+  "RequireAdmin": false,
+  "Release": {
+    "Files": {
+      "Startup-Manager.ps1": "src\\Startup-Manager.ps1",
+      "New-StartupManagerShortcut.ps1": "src\\New-StartupManagerShortcut.ps1",
+      "Startup Manager.cmd": "release\\Startup Manager.cmd",
+      "assets\\Startup-Manager.ico": "assets\\Startup-Manager.ico",
+      "assets\\Startup-Manager.png": "assets\\Startup-Manager.png",
+      "README.md": "README.md",
+      "CHANGELOG.md": "CHANGELOG.md",
+      "LICENSE": "LICENSE"
+    },
+    "Shortcut": "New-StartupManagerShortcut.ps1"
+  }
+}
